@@ -1,47 +1,22 @@
-/* 打開 style.css，輸入以下程式碼： */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #333;    
 }
 
 header {
-  /* 網站標題區 */
-  background: #222;
-  color: white;
-  padding: 20px;
+    background: #222;
+    color: white;
+    padding: 20px;
 }
 
 nav {
-  /* 導覽列：獨立設定深灰色背景 */
-  background: #444;
+    background: #444;
 }
 
 nav a {
-  /* 導覽列連結 */
-  color: white;
-  text-decoration: none;
-  margin-right: 20px;
-}
-
-section {
-  padding: 60px 20px;
-}
-
-/* 美化文章區塊 */
-article {
-  border: 1px solid #ddd;
-  padding: 20px;
-  /* 上下外邊距 20px，左右 0 */
-  margin: 20px 0;
-  border-radius: 10px;
-  /* 強調圓角效果 */
-}
-
-footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
 }
