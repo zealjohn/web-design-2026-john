@@ -16,7 +16,6 @@ nav {
 }
 
 nav a {
-<<<<<<< HEAD
   /* 導覽列連結 */
   color: white;
   text-decoration: none;
@@ -45,6 +44,8 @@ footer {
 }
 
 .clubs {
+  display: flex;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -54,14 +55,4 @@ footer {
   padding: 30px;
   border: 1px solid #222;
   border-radius: 12px;
-}
-
-.clubs {
-  display: flex;
-  justify-content: center;
-=======
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
->>>>>>> f95a119009aa0197d956f70337039cb9b8b4eae9
 }
