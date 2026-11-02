@@ -45,3 +45,20 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+.clubs {
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  background: #ddd;
+  padding: 30px;
+  border: 1px solid #222;
+  border-radius: 12px;
+}
+
+.clubs {
+  display: flex;
+  justify-content: center;
+}
