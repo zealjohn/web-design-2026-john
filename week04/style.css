@@ -29,11 +29,9 @@ section {
 /* 美化文章區塊 */
 article {
   border: 1px solid #ddd;
-  padding: 20px;
-  /* 上下外邊距 20px，左右 0 */
+  padding: 20px;  /* 上下外邊距 20px，左右 0 */
   margin: 20px 0;
-  border-radius: 10px;
-  /* 強調圓角效果 */
+  border-radius: 10px;   /* 強調圓角效果 */
 }
 
 footer {
@@ -44,13 +42,10 @@ footer {
 }
 
 .clubs {
-  display: flex;
   justify-content: center;
-  gap: 20px;
 }
 
 .card {
-  flex: 1;
   background: #ddd;
   padding: 30px;
   border: 1px solid #222;
