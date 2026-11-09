@@ -12,14 +12,15 @@ header {
 }
 
 nav {
+    /* 獨立設定深灰色背景 */
     background: #444;
 }
 
 nav a {
-  /* 導覽列連結 */
+  /* 導覽列連結白字無底線 */
   color: white;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 20px;   /* 項目間隔 20px */
 }
 
 section {
