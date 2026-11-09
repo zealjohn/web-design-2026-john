@@ -30,9 +30,9 @@ section {
 /* 美化文章區塊 */
 article {
   border: 1px solid #ddd;
-  padding: 20px;  /* 上下外邊距 20px，左右 0 */
+  padding: 20px;
   margin: 20px 0;
-  border-radius: 10px;   /* 強調圓角效果 */
+  border-radius: 10px;
 }
 
 footer {
@@ -42,13 +42,4 @@ footer {
   padding: 20px;
 }
 
-.clubs {
-  justify-content: center;
-}
-
-.card {
-  background: #ddd;
-  padding: 30px;
-  border: 1px solid #222;
-  border-radius: 12px;
-}
+/* 上課上到W04結束 */
