@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f7f7f7;
+}
+
+.menu {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.menu-card {
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.menu-card img {
+    width: 100%;
+    display: block;
+}
+
+.menu-card h3,
+.menu-card p {
+    padding: 0 20px;
+}
