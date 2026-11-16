@@ -1,0 +1,16 @@
+/* 啟用外層容器的 Grid 引擎 */
+.menu-grid {
+  display: grid;
+}
+
+.menu-grid {
+display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.menu {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+}
